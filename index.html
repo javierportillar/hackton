@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollution't Cali</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Pollution't Cali</h1>
+  </header>
+  <nav> <a href="#objetivos">Objetivos</a> <a href="#estrategias">Estrategias</a> <a href="#contacto">Contacto</a>
+  </nav>
+  <section class="sumaryData">
+
+    <div class="sumaryDataSection">
+      <div class="sumaryData">
+        <h2>Mira ve, aquí podes ver cómo está el aire en Cali, ¿oís?</h2>
+        <div class="sumaryDataSectionInfo">
+          <h3>Calidad del aire</h3>
+          <div class="pmDataSum">
+            <p>La calidad del aire en Cali es <span id="calidadAire"></span></p>
+            <div class="pmValueData">
+              <h3>Pm 2.5:</h3>
+              <h1 id="pmValue"></h1>
+            </div>
+            <p id="pmSug"></p>
+          </div>
+        </div>
+  </section>
+  <section class="mainDataSection">
+    <div class="buttons">
+      <div class="nodeButton">
+        <p class="nodeName" type="">Nodo a Filtrar</p>
+        <select name="nodos" id="nodesSelect"></select>
+      </div>
+      <div class="dateButton">
+        <p class="dateName">Fecha a Filtrar</p>
+        <input type="date" id="dateInput">
+      </div>
+    </div>
+    <div class="mapLoad">
+      <div class="img">
+        <img src="/assets/img/caliCity.png" alt="" id="caliImg">
+      </div>
+      <div id="nodes" class="nodes">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <footer> &copy; 2024 Política Climática. Todos los derechos reservados. </footer> -->
+</body>
+<script type="module" src="/js/index.js"></script>
+<!-- <script src="/data/datosTratados.js"></script> -->
+
+</html>

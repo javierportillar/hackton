@@ -1,0 +1,351 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* La página ocupa al menos el alto de la ventana */
+}
+
+header {
+  color: #ffffff;
+  padding: 1px;
+  background-color: #4CAF50;
+}
+
+header h1 {
+  margin-left: 50px;
+}
+
+nav {
+  text-align: center;
+  margin: 1em 0;
+}
+
+nav a {
+  margin: 5em;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #338136;
+  cursor: pointer;
+}
+
+.sumaryData {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sumaryData h2 {
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10pc;
+}
+
+.sumaryData h3 {
+  color: #338136;
+}
+
+section {
+  padding: 2em;
+  flex: 1;
+  /* El contenido principal ocupa el espacio restante */
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  /* Elimina la posición fija */
+}
+
+/* El contenedor principal debe ocupar todo el espacio disponible */
+.main-content {
+  flex: 1;
+}
+
+/* Estiliza el footer */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.mapLoad {
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.mapLoad .nodes {
+  width: 70%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -25em;
+  left: 15%;
+}
+
+#caliImg {
+  width: 80%;
+}
+
+.sumaryDataSection {
+  display: flex;
+  justify-content: center;
+}
+
+.sumaryDataSectionInfo {
+  justify-content: center;
+  text-align: center;
+}
+
+.nodeButton {
+  color: #4CAF50;
+  font-weight: bolder;
+}
+
+.dateButton {
+  color: #4CAF50;
+  font-weight: bolder;
+}
+
+#nodesSelect {
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#nodesSelect:hover {
+  background-color: #9bd99d;
+  color: #328d35;
+  animation: 3s;
+}
+
+#dateInput:hover {
+  background-color: #9bd99d;
+  color: #328d35;
+}
+
+#dateInput {
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.pmValueData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pmValueData h3 {
+  font-size: 1.5em;
+}
+
+.node1 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 39.5em;
+  top: 4.8em;
+}
+
+.node2 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 29em;
+  top: 17em;
+}
+
+.node3 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 39em;
+  top: 12em;
+}
+
+.node4 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 37em;
+  top: 22em;
+}
+
+.node5 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 47em;
+  top: 28em;
+}
+
+.node6 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 43em;
+  top: 21em;
+}
+
+node7 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 37em;
+  top: 30em;
+}
+
+.node8 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 53em;
+  top: 25em;
+}
+
+.node9 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 51em;
+  top: 21em;
+}
+
+.node10 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 33em;
+  top: 15.5em;
+}
+
+.node11 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 58em;
+  top: 9em;
+}
+
+.node12 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 64em;
+  top: 9em;
+}
+
+.node13 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 61em;
+  top: 14em;
+}
+
+.node14 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 86em;
+  top: 7em;
+}
+
+.node15 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 25em;
+  top: 31em;
+}
+
+.node16 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 62em;
+  top: 26em;
+}
+
+.node17 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 34em;
+  top: 24em;
+}
+
+.node18 {
+  position: absolute;
+  width: 4em;
+  height: 50px;
+  left: 54em;
+  top: 13em;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.nodes {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  height: 20em;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  display: none;
+}
+
+.node {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  background-color: #f4f4f4;
+  color: black;
+  margin: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.node p {
+  align-items: center;
+  margin: 1em;
+  height: 5em;
+}
+
+.mainDataSection {
+  padding-top: 0;
+  flex: 1;
+}
